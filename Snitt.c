@@ -1,3 +1,4 @@
+// This is a GPA calculator for Norwegian grading system
 #include <stdio.h>
 #include <stdlib.h>
 int main() {

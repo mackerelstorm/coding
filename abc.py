@@ -1,3 +1,4 @@
+# This is an ABC formula solver for ax^2+bx+c
 import math
 a = input("A: ")
 b = input("B: ")
