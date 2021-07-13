@@ -20,6 +20,7 @@ while (Antall > InputAntall) {
     }
 }
 printf("Ditt snitt er: %.2f",(double)KarakterTotal / (double)Antall);
+// While loop is for Windows executable, program will terminate immediately if not present.
 while (1>0) {
 
 }
