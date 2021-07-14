@@ -1,5 +1,6 @@
 // This is a GPA calculator for Norwegian grading system
 #include <stdio.h>
+
 int main() {
 int Antall;
 int Karakter;
