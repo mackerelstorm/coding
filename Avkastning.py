@@ -1,3 +1,4 @@
+# Program that calculates the expected profit of funds, stocks, savings account etc.
 try:
     start_value = float(input("Startkapital: "))
     percentage = float(input("Anslått gjennomsnittlig årlig avkastning (i prosent): "))
@@ -13,6 +14,7 @@ try:
     print(round(result))
     print("Penger tjent:" )
     print(round(earnings))
+    # The if statement below is just an easter egg
     if float(start_value) >= 10000000 and float(final_coefficient) >= 1.30:
          print("Rige du, reina Warren Buffett jo")
 except ValueError:
