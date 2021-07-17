@@ -8,11 +8,15 @@ window.configure(background="white")
 
 # Defining num for random number generation between 1-100
 num = random.randint(1,100)
+def generaterandom():
+    global num
+    num = random.randint(1,100)
 
 # Defining function buttonClick
 def buttonClick():
     myLabel = Label(window, text=num, width=50, height=5, font=("Arial", 12))
     myLabel.pack()
+    generaterandom()
 
 # Creating button for generating Random number
 PhysButton = Button(window, text="Generate random number", command=buttonClick, width=50, height=10, font=("Arial", 12))
