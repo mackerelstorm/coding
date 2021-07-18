@@ -12,7 +12,7 @@ while (Antall > InputAntall) {
     printf("Skriv inn en karakter: ");
     scanf("%d", &Karakter);
     if (Karakter > 6) {
-        printf("Ugyldig karakter");
+        printf("Ugyldig karakter\n");
     }
     else {
     KarakterTotal = KarakterTotal + Karakter;
