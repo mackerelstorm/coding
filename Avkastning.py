@@ -15,7 +15,7 @@ try:
     print("Penger tjent:" )
     print(round(earnings))
     # The if statement below is just an easter egg
-    if float(start_value) >= 10000000 and float(final_coefficient) >= 1.30:
+    if float(start_value) >= 1e7 and float(final_coefficient) >= 1.30:
          print("Rige du, reina Warren Buffett jo")
 except ValueError:
     print("Feil, prøv igjen")
